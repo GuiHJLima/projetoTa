@@ -3,5 +3,6 @@
     height: 100px;
     padding: 0;
     margin: 0;
-    background-color: rebeccapurple;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
 }
