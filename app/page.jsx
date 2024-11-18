@@ -6,14 +6,16 @@ export default function Home() {
   return (
     <div className={styles.background}>
       <Header />
-      <h1 className={styles.title}>Golpes na Internet</h1>
+      <h1 className={styles.title}>PARCERIA SESI - SENAI - Educação, Conscientização e Prevenção contra Golpes Virtuais.</h1>
       
       <div className={styles.card}>
         <img src="/young-woman-holding-black-smartphone.jpg" alt="Golpes na Internet" className={styles.imagem} />
         
         <div className={styles.card2}>
           <h2>Entenda os Principais Golpes Virtuais</h2>
-          <p> Atualmente, os golpes na inernet estão ficando cada vez mais comuns. Tentativas de roubo de dados pessoais até fraudes em compras online. É importante estar sempre atento e informado.</p>
+          <p className={styles.text}> Com alegria e satisfação que recebemos sua visita em nosso site de Proteção contra Golpes Virtuais de parece SESI - SENAI que tem como objetivo essencial promover a educação, conscientização e prevenção contra golpes virtuais, Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras. Atualmente, os golpes na inernet estão ficando cada vez mais comuns.</p>
+          <p className={styles.text}>Atualmente, os golpes na inernet estão ficando cada vez mais comuns. Tentativas de roubo de dados pessoais até fraudes em compras online. É importante estar sempre atento e informado.</p>
+        </div>
         </div>
       
     
@@ -34,11 +36,10 @@ export default function Home() {
             <p>Está havendo aumento significativo de fraudes em plataformas de e-commerce.</p>
           </li>
           <li>
-            <a href="https://www.cnnbrasil.com.br/saude/bets-e-jogos-de-azar-quando-apostar-pode-se-tornar-um-vicio/#:~:text=A%20natureza%20an%C3%B4nima%20das%20apostas,depend%C3%AAncia%2C%20na%20vis%C3%A3o%20da%20especialista."><strong>os perigos do jogos de aposta online </strong></a>
-            <p>o aumento dos jogos de azar e seus apostadores saiba os riscos </p>
+            <a href="https://www.cnnbrasil.com.br/saude/bets-e-jogos-de-azar-quando-apostar-pode-se-tornar-um-vicio/#:~:text=A%20natureza%20an%C3%B4nima%20das%20apostas,depend%C3%AAncia%2C%20na%20vis%C3%A3o%20da%20especialista."><strong>Os perigos dos jogos de aposta online </strong></a>
+            <p>O aumento dos jogos de azar na internet.</p>
           </li>
         </ul>
-      </div>
     </div>
 
     </div>
