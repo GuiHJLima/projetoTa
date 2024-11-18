@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.card2}>
           <h2>Entenda os Principais Golpes Virtuais</h2>
           <p className={styles.text}> Com alegria e satisfação que recebemos sua visita em nosso site de Proteção contra Golpes Virtuais de parece SESI - SENAI que tem como objetivo essencial promover a educação, conscientização e prevenção contra golpes virtuais, Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras. Atualmente, os golpes na inernet estão ficando cada vez mais comuns.</p>
-          <p className={styles.text}>Atualmente, os golpes na inernet estão ficando cada vez mais comuns. Tentativas de roubo de dados pessoais até fraudes em compras online. É importante estar sempre atento e informado.</p>
+          <p className={styles.text}>Tentativas de roubo de dados pessoais até fraudes em compras online. É importante estar sempre atento e informado.</p>
         </div>
         </div>
       
