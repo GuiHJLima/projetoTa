@@ -1,11 +1,23 @@
-.all{
+.title {
+  text-align: center;
+}
+
+.card{
   text-align: center;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 .square{
   background-color: rgb(172, 172, 172);
   width: 45vw;
   height: 85vh;
-  margin-left: 32.2rem;
+  margin-left: 3rem;
+  border-radius: 2rem;
+}
+
+.imagem{
+  display: flex;
+  height: 30rem;
+  width: 45rem;
 }

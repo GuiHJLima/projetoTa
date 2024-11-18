@@ -4,11 +4,13 @@ export default function Home() {
   return (
     <div>
         <Header />
-    <div className={styles.all}>
-      <h1>Home</h1>
+        <h1 className={styles.title}>Golpes na Internet</h1>
+    <div className={styles.card}>
+      <img src="/golpe.jpg" className={styles.imagem}/>
       
       <div className={styles.square}>
-        <h1>iyefuhcsd</h1>
+
+        <h2>(Texto Informativo)</h2>
       </div>
     </div>
     </div>
