@@ -15,6 +15,9 @@ export default function Home() {
 Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras.
 </p>
 
+<a href="./Artigos">
+  <button>Artigos</button>
+</a>
     </div>
   );
 }
