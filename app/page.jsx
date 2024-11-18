@@ -1,5 +1,6 @@
 'use client';
 import Header from "./components/header/header";
+
 import style from "./page.module.css";
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
 Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras.
 </p>
+
     </div>
   );
 }
