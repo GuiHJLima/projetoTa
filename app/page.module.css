@@ -1,3 +1,7 @@
+.background {
+  background-color: rgba(255, 255, 255, 0.958);
+}
+
 .title {
   text-align: center;
 }
@@ -9,7 +13,7 @@
   display: flex;
 }
 .square{
-  background-color: rgb(172, 172, 172);
+  background-color: rgba(255, 255, 255, 0.96);
   width: 45vw;
   height: 85vh;
   margin-left: 3rem;
@@ -18,6 +22,7 @@
 
 .imagem{
   display: flex;
-  height: 30rem;
-  width: 45rem;
+  height: 20rem;
+  width: 35rem;
+  border-radius: 2rem;
 }
