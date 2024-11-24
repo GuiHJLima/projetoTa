@@ -17,9 +17,6 @@ export default function Home() {
           <p className={styles.text}>Tentativas de roubo de dados pessoais até fraudes em compras online. É importante estar sempre atento e informado.</p>
         </div>
         </div>
-      
-    
-
       <div className={styles.newsSection}>
         <h2>Últimas Notícias</h2>
         <ul>
