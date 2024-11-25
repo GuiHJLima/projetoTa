@@ -2,7 +2,7 @@
 import Header from '../components/header/header';
 import style from './page.module.css';
 import { useState, useEffect } from 'react';
-
+import QuizComponent from '../components/quizcomponent/quiz';
 export default function Quiz() {
   const [questions, setQuestions] = useState([]);
   const [quizStarted, setQuizStarted] = useState(false);
@@ -42,6 +42,7 @@ export default function Quiz() {
       <Header />
       <div className={style.card}>
         <h1 className={style.title}>Quiz</h1>
+        <QuizComponent />
         {!quizStarted ? (
           <>
             <p className={style.info}>Aqui você consegue achar perguntas sobre as matérias lidas.</p>
