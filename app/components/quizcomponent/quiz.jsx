@@ -262,7 +262,7 @@ const QuizComponent = () => {
 
         answerTemplate.setAttribute("correct-answer", answer.correct);
         answerTemplate.classList.remove(styles.hide);
-        answerTemplate.classList.remove(styles['answer-template']);
+        answerTemplate.class0List.remove(styles['answer-template']);
 
         answerTemplate.addEventListener("click", () => checkAnswer(answerTemplate));
 
@@ -298,7 +298,6 @@ const QuizComponent = () => {
 
   return (
     <div>
-      <h1 id={styles['main-title']}>Quizz Senai!</h1>
       {showScore ? (
         <div id={styles['score-container']}>
           <h2>Parabéns!</h2>
