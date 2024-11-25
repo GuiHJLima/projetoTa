@@ -1,18 +1,36 @@
 'use client';
+import React, { useState } from 'react';
 import styles from './page.module.css';
+
 const Header = () => {
-    return (
-        <header className={styles.headerContainer}>
-            <div className={styles.logoContainer}>
-            <h1>Header</h1>
-            </div>
-            <div className={styles.searchContainer}>
-            <span>Home</span>
-            <span>Noticias</span>
-            <span>Home</span>
-            <span>Noticias</span>
-            </div>
-        </header>
-    );
-}
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <header className={styles.header}>
+      <div className={styles.menuButton} onClick={toggleMenu}>
+        ☰
+      </div>
+      <div className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
+        <div className={styles.closeButton} onClick={toggleMenu}>
+          ✖
+        </div>
+        <nav className={styles.nav}>
+          <a href="./" className={styles.navItem}>Home</a>
+          <a href="./Quiz" className={styles.navItem}>Quiz</a>
+          <a href="./Artigos" className={styles.navItem}>Artigos</a> 
+        </nav>
+      </div>
+      <div className={styles.title}>
+        <a href='./'> 
+        <img className={styles.titulo} src='/Logo.png' alt='Logo' width={100} height={100} />
+        </a>
+      </div>
+    </header>
+  );
+};
+
 export default Header;

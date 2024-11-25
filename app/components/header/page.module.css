@@ -1,23 +1,89 @@
-.headerContainer{
-  background-color: rgb(246, 55, 55);;
+.header {
+  background: #0f3246;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 6rem;
-  padding: 2rem;
+  padding: 1rem;
+  color: #ffffff;
+  gap: 83%;
 }
-.logoContainer{
-    width: 70%;
-    height: 100%;
-    margin-left: 1%;
+
+.menuButton {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 1em;
+  font-size: 50px;
 }
-.searchContainer{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    font-size: 1.5rem;
+
+.menuButton:hover {
+  color: #0F3064;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -350px;
+  width: 350px;
+  height: 100%;
+  background-color: #0f3246;
+  color: #fff;
+  transition: left 0.3s;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.closeButton {
+  font-size: 2.5em;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 10px;
+  margin-right: 300px;
+  margin-top: -50px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+.navItem {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+}
+
+.navItem:hover {
+  color: #ddd;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 1.5em;
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 65px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  margin-left: -80px;
+}
+
+.link {
+  margin: 0;
 }
