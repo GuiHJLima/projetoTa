@@ -20,8 +20,9 @@
 }
 
 .imagem {
-  width: 45rem;
-  height: 30rem;
+  align-items: center;
+  width: 25rem;
+  height: 10rem;
   border-radius: 8px;
 }
 
