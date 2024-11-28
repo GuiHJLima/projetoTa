@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './quiz.module.css'; // Importando o módulo CSS
 
@@ -262,7 +263,7 @@ const QuizComponent = () => {
 
         answerTemplate.setAttribute("correct-answer", answer.correct);
         answerTemplate.classList.remove(styles.hide);
-        answerTemplate.class0List.remove(styles['answer-template']);
+        answerTemplate.classList.remove(styles['answer-template']);
 
         answerTemplate.addEventListener("click", () => checkAnswer(answerTemplate));
 
