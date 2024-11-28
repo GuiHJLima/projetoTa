@@ -26,7 +26,7 @@ const Header = () => {
       </div>
       <div className={styles.title}>
         <a href='./'> 
-        <img className={styles.titulo} src='/Logo.png' alt='Logo' width={100} height={100} />
+        <img className={styles.titulo} src='/unnamed.png' alt='Logo' width={100} height={100} />
         </a>
       </div>
     </header>
