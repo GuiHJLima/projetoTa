@@ -12,27 +12,12 @@ function Articles() {
     const [data_publicacao, setData_publicacao] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        const novoArtigo = { titulo, conteudo, foto, video, autor, data_publicacao };
-
-        fetch('http://10.88.200.165:3003/artigos', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(novoArtigo),
-        })
-        .then(response => response.json())
-        .then(data => {
-            console.log('Artigo criado com sucesso:', data);
             setTitulo('');
             setConteudo('');
             setFoto('');
             setVideo('');
             setAutor('');
             setData_publicacao('');
-        })
-        .catch(error => console.log('Error posting article:', error));
     };
         return (
             <div className={styles.container}>
