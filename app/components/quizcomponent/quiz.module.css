@@ -148,7 +148,7 @@
 @media(max-width:450px) {
   #quizz-container {
     border: none;
-    width: 100%;
+    width: 85%;
   }
 
   #answers-box button {
