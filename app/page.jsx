@@ -13,37 +13,29 @@ export default function Home() {
         
         <div className={styles.card2}>
           <h2>Entenda os Principais Golpes Virtuais</h2>
-          <p className={styles.text}> Educar e Conscientizar sobre o uso da internet com segurança, aprendendo formas e mecanismos para conquistar proteção online. 
 
-“Para nossa família (Pais, Tios, Avôs), amigos e pessoas que tem pouco conhecimento sobre a era digital, por todo gesto de carinho e cuidado conosco, um amor nunca acaba”
+          <p className={styles.texto1}> Educar e Conscientizar sobre o uso da internet com segurança, aprendendo formas e mecanismos para conquistar proteção online. </p>
 
-“Eu, tu, ele, ela, nós, vós, sejamos aquilo que somos, pessoas que buscam o belo, o bem e sempre o que é justo, no mundo real e no virtual. 
-
+<div className={styles.titulo}>
+<p className={styles.texto}>“Para nossa família (Pais, Tios, Avôs), amigos e pessoas que tem pouco conhecimento sobre a era digital, por todo gesto de carinho e cuidado conosco, um amor nunca acaba”</p>
+</div>
+<p className={styles.text}>“Eu, tu, ele, ela, nós, vós, sejamos aquilo que somos, pessoas que buscam o belo, o bem e sempre o que é justo, no mundo real e no virtual. 
 Vamos trilhar o caminho da virtude e da integridade ética. 
-Não vamos ser como aqueles que ficam atravancando o caminho das pessoas de bem, pois como já disse o poeta, os que atravancam os caminhos passarão e nos, passarinho, livre e com as mãos cheias, maravilhado com a mente cheia de saberes, ensinado, aprendendo e partilhando com humildade e bondade no olhar”. (NEVES, Nivaldo F. Um olhar de ternura na arte de ensinar e aprender – 2024/11/28)
-
-
+Não vamos ser como aqueles que ficam atravancando o caminho das pessoas de bem, pois como já disse o poeta, os que atravancam os caminhos passarão e nos, passarinho, livre e com as mãos cheias, maravilhado com a mente cheia de saberes, ensinado, aprendendo e partilhando com humildade e bondade no olhar”. (NEVES, Nivaldo F. Um olhar de ternura na arte de ensinar e aprender – 2024/11/28)</p>
+<p className={styles.text}>
 Com alegria e satisfação que recebemos sua visita em nosso site de Educação, Conscientização e Prevenção Contra Golpes Virtuais. Esse projeto de tecnologia é fruto de uma parceria SESI & SENAI (Valinhos) e o objetivo essencial promover a educação e prevenção contra golpes virtuais. Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras. Atualmente, os golpes na internet estão ficando cada vez mais comuns.                          
 Há, inúmeras tentativas de roubo de dados pessoais, fraudes em compras online, entre outras estratégias de pessoas mal-intencionadas, que usam o conhecimento tecnológico de maneira depreciativa para prejudicar a reputação e a tranquilidade de pessoas e instituições. É importante estar sempre atento para não cair nessa rede de malfeitores. 
-                                                                                                                                                                                                   Dentro dessa dimensão, reafirmamos que o nosso projeto tem como meta maior promover a orientação e passar estratégias essenciais para que pessoas de bem possam navegar com serenidade na internet e não ser alvo de golpistas delinquentes.
-Temos que ter consciência que a internet é um espaço de busca de conhecimentos para todos, mas infelizmente nem todos têm boas intenções. E, nessa dimensão que o nosso projeto de Ética e Tecnologia em parceria com SENAI nasce com essa função de educar e conscientizar pessoas para navegar com tranquilidade e segurança, pois a educação é a melhor arma contra os golpes online. Vamos partilhar esse site e espalhar essa corrente de bem e ética com as pessoas que conhecemos. 
+ Dentro dessa dimensão, reafirmamos que o nosso projeto tem como meta maior promover a orientação e passar estratégias essenciais para que pessoas de bem possam navegar com serenidade na internet e não ser alvo de golpistas delinquentes. </p>
+ <p className={styles.text}>Temos que ter consciência que a internet é um espaço de busca de conhecimentos para todos, mas infelizmente nem todos têm boas intenções. E, nessa dimensão que o nosso projeto de Ética e Tecnologia em parceria com SENAI nasce com essa função de educar e conscientizar pessoas para navegar com tranquilidade e segurança, pois a educação é a melhor arma contra os golpes online. Vamos partilhar esse site e espalhar essa corrente de bem e ética com as pessoas que conhecemos. 
 Por fim, quero registrar que esse projeto de tecnologia é motivo de orgulho e dedicação de estudantes do Tópico Avançado Ética, relações humanas e tecnologias da Rede SESI- SP com o apoio incrível do Professor Thiago Ferreira, do Professor Marcelo Carboni (SENAI de Valinhos) e com apoio de ambas as coordenadoras escolares (Daniele Bicalho – SESI) e (Luciana C. Bugatte – SENAI)
 A união de docentes do SENAI e do SESI em parceria com os estudantes, tornou possível a criatividade e a dedicação de cada membro para superar os desafios para ter esse material de consulta simples, mas de uma forma de fácil acesso para todas as pessoas, especialmente, para as pessoas da melhor e maravilhosa idade.
 Educar e Conscientizar sobre o uso da internet com segurança, aprendendo formas e mecanismos para conquistar proteção online. 
+</p>
 
-“Para nossa família (Pais, Tios, Avôs), amigos e pessoas que tem pouco conhecimento sobre a era digital, por todo gesto de carinho e cuidado conosco, um amor nunca acaba”
-
-“Eu, tu, ele, ela, nós, vós, sejamos aquilo que somos, pessoas que buscam o belo, o bem e sempre o que é justo, no mundo real e no virtual. 
-
-Vamos trilhar o caminho da virtude e da integridade ética. 
-Não vamos ser como aqueles que ficam atravancando o caminho das pessoas de bem, pois como já disse o poeta, os que atravancam os caminhos passarão e nos, passarinho, livre e com as mãos cheias, maravilhado com a mente cheia de saberes, ensinado, aprendendo e partilhando com humildade e bondade no olhar”. (NEVES, Nivaldo F. Um olhar de ternura na arte de ensinar e aprender – 2024/11/28)
-
-
-Com alegria e satisfação que recebemos sua visita em nosso site de Educação, Conscientização e Prevenção Contra Golpes Virtuais. Esse projeto de tecnologia é fruto de uma parceria SESI & SENAI (Valinhos) e o objetivo essencial promover a educação e prevenção contra golpes virtuais. Na era digital, a segurança online é fundamental. Cada vez mais, os golpistas utilizam técnicas sofisticadas para enganar e roubar informações pessoais e financeiras. Atualmente, os golpes na internet estão ficando cada vez mais comuns.                          
-Há, inúmeras tentativas de roubo de dados pessoais, fraudes em compras online, entre outras estratégias de pessoas mal-intencionadas, que usam o conhecimento tecnológico de maneira depreciativa para prejudicar a reputação e a tranquilidade de pessoas e instituições. É importante estar sempre atento para não cair nessa rede de malfeitores. 
-                                                                                                                                                                                                   Dentro dessa dimensão, reafirmamos que o nosso projeto tem como meta maior promover a orientação e passar estratégias essenciais para que pessoas de bem possam navegar com serenidade na internet e não ser alvo de golpistas delinquentes.
+<p className={styles.text}>                                                                                                                                                                                               Dentro dessa dimensão, reafirmamos que o nosso projeto tem como meta maior promover a orientação e passar estratégias essenciais para que pessoas de bem possam navegar com serenidade na internet e não ser alvo de golpistas delinquentes.
 Temos que ter consciência que a internet é um espaço de busca de conhecimentos para todos, mas infelizmente nem todos têm boas intenções. E, nessa dimensão que o nosso projeto de Ética e Tecnologia em parceria com SENAI nasce com essa função de educar e conscientizar pessoas para navegar com tranquilidade e segurança, pois a educação é a melhor arma contra os golpes online. Vamos partilhar esse site e espalhar essa corrente de bem e ética com as pessoas que conhecemos. 
-Por fim, quero registrar que esse projeto de tecnologia é motivo de orgulho e dedicação de estudantes do Tópico Avançado Ética, relações humanas e tecnologias da Rede SESI- SP com o apoio incrível do Professor Thiago Ferreira, do Professor Marcelo Carboni (SENAI de Valinhos) e com apoio de ambas as coordenadoras escolares (Daniele Bicalho – SESI) e (Luciana C. Bugatte – SENAI)
+</p>
+<p className={styles.text}>Por fim, quero registrar que esse projeto de tecnologia é motivo de orgulho e dedicação de estudantes do Tópico Avançado Ética, relações humanas e tecnologias da Rede SESI- SP com o apoio incrível do Professor Thiago Ferreira, do Professor Marcelo Carboni (SENAI de Valinhos) e com apoio de ambas as coordenadoras escolares (Daniele Bicalho – SESI) e (Luciana C. Bugatte – SENAI)
 A união de docentes do SENAI e do SESI em parceria com os estudantes, tornou possível a criatividade e a dedicação de cada membro para superar os desafios para ter esse material de consulta simples, mas de uma forma de fácil acesso para todas as pessoas, especialmente, para as pessoas da melhor e maravilhosa idade.
 </p>
         </div>

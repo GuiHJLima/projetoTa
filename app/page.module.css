@@ -8,6 +8,11 @@
   margin-bottom: 20px;
 }
 
+.text {
+  font-size: 1rem;
+  padding: 2px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -20,10 +25,26 @@
 }
 
 .imagem {
-  align-items: center;
+  align-items: right;
   width: 18rem;
   height: 10rem;
   border-radius: 8px;
+}
+
+.titulo {
+  display: flex;
+  margin-left: 20rem;
+}
+
+.texto1{ 
+  font-size: 1rem;
+  text-align: center;
+}
+
+.texto{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center
 }
 
 .card2 {
