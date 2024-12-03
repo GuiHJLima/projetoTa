@@ -14,8 +14,7 @@ export default function Home() {
         <div className={styles.card2}>
           <h2>Entenda os Principais Golpes Virtuais</h2>
 
-          <p className={styles.texto1}> Educar e Conscientizar sobre o uso da internet com segurança, aprendendo formas e mecanismos para conquistar proteção online. 
-</p>
+          <p className={styles.texto1}> Educar e Conscientizar sobre o uso da internet com segurança, aprendendo formas e mecanismos para conquistar proteção online. </p>
 
 <div className={styles.titulo}>
 <p className={styles.texto}>“Para nossa família (Pais, Tios, Avôs), amigos e pessoas que tem pouco conhecimento sobre a era digital, por todo gesto de carinho e cuidado conosco, um amor nunca acaba”</p>
