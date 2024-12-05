@@ -48,7 +48,7 @@ export default function Home() {
           <p className={styles.text}>
             Com alegria e satisfação que recebemos sua visita em nosso site de
             “Educação, Conscientização e Prevenção Contra Golpes Virtuais”. Esse
-            projeto de tecnologia é fruto de uma parceria SESI &amp; SENAI
+            projeto de tecnologia é fruto de uma parceria SESI & SENAI
             (Valinhos). Na era digital, a segurança online é fundamental,
             sabemos que cada vez mais os golpistas utilizam técnicas
             sofisticadas para enganar e roubar informações pessoais e
@@ -57,10 +57,7 @@ export default function Home() {
             intencionadas, que usam o conhecimento tecnológico de maneira
             depreciativa para prejudicar a reputação e a tranquilidade de
             pessoas e instituições. É importante estar sempre atento para não
-            cair nessa rede de malfeitores. Nessa dimensão, reafirmamos que o
-            nosso projeto tem como meta maior promover a orientação e passar
-            estratégias essenciais para que pessoas de bem possam navegar com
-            segurança na internet e não ser alvo de golpistas delinquentes.{" "}
+            cair nessa rede de malfeitores.{" "}
           </p>
           <p className={styles.text}>
             Enfim, temos que ter consciência que a internet é um espaço de busca
@@ -73,31 +70,22 @@ export default function Home() {
 
           <p className={styles.text}>
             {" "}
-            Dentro dessa dimensão, reafirmamos que o nosso projeto tem como meta
-            maior promover a orientação e passar estratégias essenciais para que
-            pessoas de bem possam navegar com serenidade na internet e não ser
-            alvo de golpistas delinquentes. Temos que ter consciência que a
-            internet é um espaço de busca de conhecimentos para todos, mas
-            infelizmente nem todos têm boas intenções. E, nessa dimensão que o
-            nosso projeto de Ética e Tecnologia em parceria com SENAI nasce com
-            essa função de educar e conscientizar pessoas para navegar com
-            tranquilidade e segurança, pois a educação é a melhor arma contra os
-            golpes online. Vamos partilhar esse site e espalhar essa corrente de
-            bem e ética com as pessoas que conhecemos.
-          </p>
-          <p className={styles.text}>
             Por fim, quero registrar que esse projeto de tecnologia é motivo de
             orgulho e dedicação de estudantes do Tópico Avançado Ética, relações
             humanas e tecnologias da Rede SESI- SP com o apoio incrível do
             Professor Thiago Ferreira, do Professor Marcelo Carboni (SENAI de
             Valinhos) e com apoio de ambas as coordenadoras escolares (Daniele
-            Bicalho – SESI) e (Luciana C. Bugatte – SENAI). A união de docentes
-            do SENAI e do SESI em parceria com os estudantes, tornou possível a
-            criatividade e a dedicação de cada membro para superar os desafios
-            para ter esse material de consulta simples, mas de uma forma de
-            fácil acesso para todas as pessoas, especialmente, para as pessoas
-            da melhor e maravilhosa idade. Vamos partilhar esse site e espalhar
-            essa corrente de bem e ética com as pessoas que conhecemos.
+            Bicalho – SESI) e (Luciana C. Bugatte – SENAI).
+          </p>
+          <p className={styles.text}>
+          A união de docentes do SENAI e do SESI em parceria com os estudantes,
+tornou possível a criatividade e a dedicação de cada membro para superar os
+desafios para ter esse material de consulta simples, mas de uma forma de fácil
+acesso para todas as pessoas, especialmente, para as pessoas da melhor e
+
+maravilhosa idade.
+Vamos partilhar esse site e espalhar essa corrente de bem e ética com as
+pessoas que conhecemos.
           </p>
         </div>
       </div>
